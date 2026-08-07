@@ -1,11 +1,10 @@
-import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
   return (
    <div style={{ fontFamily: "Inter, sans-serif" }}>
       
-      {/* NAVBAR */}
+      {/* navbar */}
       <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: "#761f14" }}>
         <div className="container">
           <a className="navbar-brand fw-bold" href="#">Tabbii</a>
