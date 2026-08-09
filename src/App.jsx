@@ -24,15 +24,14 @@ function App() {
         </div>
       </nav>
 
-      {/* HERO */}
+      {/* hero */}
       <section className="py-5 text-white" style={{ backgroundColor: "#000" }}>
         <div className="container text-center">
           <h1 className="display-5 fw-bold">
             Understand Your Pet’s Health <br /> Through AI Narratives
           </h1>
           <p className="lead mt-3">
-            Tabbii transforms symptoms into structured case stories, helping you
-            track, understand, and act with confidence.
+            Tabbii transforms symptoms into structured case stories. Helping you track, understand, and act with confidence.
           </p>
 
           <div className="mt-4">
@@ -45,18 +44,12 @@ function App() {
           </div>
 
           <div className="mt-5">
-            <img src="" alt="Hero Preview" className="img-fluid rounded shadow" />
-            {/* 
-              Gambar yang dibutuhkan:
-              - Mockup dashboard Tabbii
-              - Menampilkan AI summary, timeline, dan status kesehatan
-              - Bisa berupa laptop screen dengan UI aplikasi
-            */}
+            <img src="images/appDashboard.png" alt="App dashboard preview" className="img-fluid rounded shadow" />
           </div>
         </div>
       </section>
 
-      {/* FEATURES */}
+      {/* features */}
       <section className="py-5 bg-white">
         <div className="container text-center">
           <h2 className="fw-bold mb-5">What Makes Tabbii Different</h2>
@@ -86,7 +79,6 @@ function App() {
         </div>
       </section>
 
-      {/* HOW IT WORKS */}
       <section className="py-5" style={{ backgroundColor: "#f8f9fa" }}>
         <div className="container">
           <h2 className="text-center fw-bold mb-5">How It Works</h2>
@@ -99,12 +91,7 @@ function App() {
               </p>
             </div>
             <div className="col-md-6">
-              <img src="" className="img-fluid rounded" alt="Input" />
-              {/* 
-                Gambar:
-                - UI form input data hewan
-                - field seperti nama, gejala, aktivitas
-              */}
+              <img src="images/inputSymptoms.png" className="img-fluid rounded" alt="Input symptoms preview" />
             </div>
           </div>
 
