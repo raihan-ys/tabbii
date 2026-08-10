@@ -103,7 +103,7 @@ function App() {
               </p>
             </div>
             <div className="col-md-6">
-              <img src="" className="img-fluid rounded" alt="AI Analysis" />
+              <img src="images/caseUpdate.png" className="img-fluid rounded" alt="AI Analysis" />
               {/* 
                 Gambar:
                 - Tampilan AI analysis
