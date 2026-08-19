@@ -103,12 +103,7 @@ function App() {
               </p>
             </div>
             <div className="col-md-6">
-              <img src="images/caseUpdate.png" className="img-fluid rounded" alt="AI Analysis" />
-              {/* 
-                Gambar:
-                - Tampilan AI analysis
-                - Menampilkan summary, timeline, dan insight
-              */}
+              <img src="images/aiCase.png" className="img-fluid rounded" alt="AI Analysis" />
             </div>
           </div>
 
@@ -120,7 +115,7 @@ function App() {
               </p>
             </div>
             <div className="col-md-6">
-              <img src="" className="img-fluid rounded" alt="Timeline" />
+              <img src="images/caseUpdate.png" className="img-fluid rounded" alt="Timeline" />
               {/* 
                 Gambar:
                 - Timeline kesehatan
