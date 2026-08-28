@@ -79,6 +79,7 @@ function App() {
         </div>
       </section>
 
+      {/* how it works */}
       <section className="py-5" style={{ backgroundColor: "#f8f9fa" }}>
         <div className="container">
           <h2 className="text-center fw-bold mb-5">How It Works</h2>
@@ -121,7 +122,7 @@ function App() {
         </div>
       </section>
 
-      {/* USE CASE */}
+      {/* use case example */}
       <section className="py-5 bg-white">
         <div className="container text-center">
           <h2 className="fw-bold mb-4">Real-Life Use Case</h2>
@@ -148,13 +149,12 @@ function App() {
         </div>
       </section>
 
-      {/* FOOTER */}
+      {/* footer */}
       <footer className="py-4 text-center text-white" style={{ backgroundColor: "#000" }}>
         <div className="container">
           <p className="mb-0">© 2026 Tabbii. All rights reserved.</p>
         </div>
       </footer>
-
     </div>
   )
 }
