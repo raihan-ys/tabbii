@@ -116,11 +116,6 @@ function App() {
             </div>
             <div className="col-md-6">
               <img src="images/caseUpdate.png" className="img-fluid rounded" alt="Timeline" />
-              {/* 
-                Gambar:
-                - Timeline kesehatan
-                - perubahan kondisi dari hari ke hari
-              */}
             </div>
           </div>
         </div>
@@ -134,14 +129,8 @@ function App() {
             “My cat started vomiting occasionally. Tabbii helped me track patterns 
             and realize it happened after certain meals.”
           </p>
-
           <div>
-            <img src="" className="img-fluid rounded shadow" alt="Case Example" />
-            {/*
-              Gambar:
-              - contoh hasil output AI (case report)
-              - terlihat seperti laporan profesional ringan
-            */}
+            <img src="images/testCase.png" className="img-fluid rounded shadow w-50" alt="Case Example" />
           </div>
         </div>
       </section>
@@ -153,7 +142,6 @@ function App() {
           <p className="mt-3">
             Build your first AI-powered health case in seconds.
           </p>
-
           <button className="btn btn-light btn-lg mt-3 fw-semibold">
             Try Tabbii Now
           </button>
